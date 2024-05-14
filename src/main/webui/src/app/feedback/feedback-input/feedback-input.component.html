@@ -1,0 +1,5 @@
+<form [formGroup]="applyForm" (submit)="submitFeedback()">
+    <label for="rating">Rating</label>
+    <input id="rating" type="number" formControlName="rating">
+    <button type="submit" class="primary">Apply Feedback Now</button>
+  </form>
